@@ -1,6 +1,5 @@
 '''
-Description: Program that simulates a music player by reading what button was
-pressed and how many times to modify a playlist
+Description: Program that simulates a music player by reading what button was pressed and how many times to modify a playlist
 Programmer: Bruno S.M.
 Date: July 22, 2025
 Version: 1.0
@@ -58,3 +57,4 @@ while True:
     else:       #All integers not between 1-7 (and 4) considered input errors
         print("Invalid input. Only buttons 1,2,3,5,6,7 work")   #Display input error
     print("Current playlist: {}, {}, {}, {}, {}".format(PlayL[0],PlayL[1],PlayL[2],PlayL[3],PlayL[4]))
+
